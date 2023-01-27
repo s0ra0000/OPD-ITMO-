@@ -1,0 +1,195 @@
+s291011@helios:/home/s291011$ cd lab0
+s291011@helios:/home/s291011/lab0$ touch carracosta2
+s291011@helios:/home/s291011/lab0$ mkdir deino9
+s291011@helios:/home/s291011/lab0$ mkdir mareep1
+s291011@helios:/home/s291011/lab0$ touch musharna0
+s291011@helios:/home/s291011/lab0$ mkdir shellder1
+s291011@helios:/home/s291011/lab0$ touch watchog1
+s291011@helios:/home/s291011/lab0$ cd deino9
+s291011@helios:/home/s291011/lab0/deino9$ touch lotad
+s291011@helios:/home/s291011/lab0/deino9$ mkdir beartic
+s291011@helios:/home/s291011/lab0/deino9$ touch murkrow
+s291011@helios:/home/s291011/lab0/deino9$ touch ferrothorn
+s291011@helios:/home/s291011/lab0/deino9$ mkdir forretress
+s291011@helios:/home/s291011/lab0/deino9$ cd ../
+s291011@helios:/home/s291011/lab0$ cd mareep1
+s291011@helios:/home/s291011/lab0/mareep1$ touch elgyem
+s291011@helios:/home/s291011/lab0/mareep1$ touch meowth
+s291011@helios:/home/s291011/lab0/mareep1$ mkdir bulbasaur
+s291011@helios:/home/s291011/lab0/mareep1$ cd ../
+s291011@helios:/home/s291011/lab0$ cd shellder1
+s291011@helios:/home/s291011/lab0/shellder1$ touch rattata
+s291011@helios:/home/s291011/lab0/shellder1$ touch scolipede
+s291011@helios:/home/s291011/lab0/shellder1$ mkdir krookodile
+s291011@helios:/home/s291011/lab0/shellder1$ mkdir blaziken
+s291011@helios:/home/s291011/lab0/shellder1$ mkdir cleffa
+s291011@helios:/home/s291011/lab0/shellder1$ cd ../
+
+
+
+s291011@helios:/home/s291011/lab0$ ности Swift Swim" > carracosta2             <
+s291011@helios:/home/s291011/lab0$ echo "Способности
+> Torrent Overgrow Swift Swim Rain Dish" >deino9/lotad
+s291011@helios:/home/s291011/lab0$ cat deino9/lotad
+Способности
+Torrent Overgrow Swift Swim Rain Dish
+s291011@helios:/home/s291011/lab0$ echo "Живет Forest Marsh
+> Urban" > deino0/murkrow
+ksh: deino0/murkrow: cannot create
+s291011@helios:/home/s291011/lab0$ echo "Живет Forest Marsh
+> Urban" > deino9/murkrow
+s291011@helios:/home/s291011/lab0$ echo "weight=242.5 height=39.0 atk=9
+> def=13" > deino9/ferothorn
+s291011@helios:/home/s291011/lab0$ rland=4 Surface=4 Sky=4 Jump=3 Power2=0     <
+> Intelligence=5 Telekinetic=0 Telepath=0" >mareep1/elgyem
+s291011@helios:/home/s291011/lab0$ echo "Способности Last
+> Chance Pickup Technician" >mareep1/meowth
+s291011@helios:/home/s291011/lab0$ echo "Развитые способности
+> Telepathy" >musharna0
+s291011@helios:/home/s291011/lab0$ rland=8 Surface=6 Jump=2 Power=1            <
+> Intelligence=3 Stealth=0" > shellder1/rattata
+s291011@helios:/home/s291011/lab0$ echo "Развитые способности Quick
+> Feet" > shellder1/scolipede
+s291011@helios:/home/s291011/lab0$ ght=43.0 atk=9 def=7" > watchog1            <
+
+
+
+
+s291011@helios:/home/s291011/lab0$ chmod 044 carracosta2
+s291011@helios:/home/s291011/lab0$ chmod 333 deino9
+s291011@helios:/home/s291011/lab0$ chmod 622 deino9/lotad
+s291011@helios:/home/s291011/lab0$ chmod 770 deino9/beartic
+s291011@helios:/home/s291011/lab0$ chmod 444 deino9/murkrow
+s291011@helios:/home/s291011/lab0$ chmod 400 deino9/ferrothorn
+s291011@helios:/home/s291011/lab0$ chmod 700 deino9/forretress
+s291011@helios:/home/s291011/lab0$ chmod 524 deino9/mareep1
+chmod: WARNING: can't access deino9/mareep1
+s291011@helios:/home/s291011/lab0$ chmod 524 mareep1
+s291011@helios:/home/s291011/lab0$ chmod 400 mareep1/elgyem
+s291011@helios:/home/s291011/lab0$ chmod 062 mareep1/meowth
+s291011@helios:/home/s291011/lab0$ chmod 307 mareep1/bulbasaur
+s291011@helios:/home/s291011/lab0$ chmod 046 musharna0
+s291011@helios:/home/s291011/lab0$ chmod 753 shellder1
+s291011@helios:/home/s291011/lab0$ chmod 400 shellder1/rattata
+s291011@helios:/home/s291011/lab0$ chmod 660 shellder1/scolipede
+s291011@helios:/home/s291011/lab0$ chmod 363 shellder1/krookodile
+s291011@helios:/home/s291011/lab0$ chmod 524 shellder1/blaziken
+s291011@helios:/home/s291011/lab0$ chmod 512 shellder1/cleffa
+s291011@helios:/home/s291011/lab0$ chmod 046 watchog1
+
+
+
+s291011@helios:/home/s291011/lab0$ ln -s musharna0 shellder1/scolipedemusharna
+s291011@helios:/home/s291011/lab0$ cat shellder1/rattata deino9/ferrothorn > musharna0_33
+s291011@helios:/home/s291011/lab0$ ln watchog1 deino9/lotadwatchog
+s291011@helios:/home/s291011/lab0$ ln -s mareep1 Copy_65
+s291011@helios:/home/s291011/lab0$ chmod u+r shellder1/krookodile
+s291011@helios:/home/s291011/lab0$ cp -RP shellder1 deino9/beartic
+s291011@helios:/home/s291011/lab0$ chmod u-r shellder1/krookodile
+s291011@helios:/home/s291011/lab0$ chmod u+r carracosta2
+s291011@helios:/home/s291011/lab0$ cp carracosta2 deino9/lotadcarracosta
+s291011@helios:/home/s291011/lab0$ chmod u-r carracosta2
+s291011@helios:/home/s291011/lab0$ chmod u+r watchog1
+s291011@helios:/home/s291011/lab0$ cp watchog1 deino9/forretress
+s291011@helios:/home/s291011/lab0$ chmod u-r watchog1
+
+
+total 18
+----r--r--   1 s291011  studs         51 сент.  7 14:43 carracosta2
+lrwxrwxrwx   1 s291011  studs          7 сент.  7 15:54 Copy_65 -> mareep1
+d-wx-wx-wx   4 s291011  studs          9 сент.  7 17:46 deino9
+dr-x-w-r--   3 s291011  studs          5 сент.  7 14:34 mareep1
+----r--rw-   1 s291011  studs         50 сент.  7 14:49 musharna0
+-rw-r--r--   1 s291011  studs         84 сент.  7 15:53 musharna0_33
+drwxrwxrwx   5 s291011  studs          8 сент.  7 17:35 shellder1
+----r--rw-   2 s291011  studs         36 сент.  7 14:52 watchog1
+
+./deino9:
+./deino9: Permission denied
+total 18
+
+./mareep1:
+total 7
+d-wx---rwx   2 s291011  studs          2 сент.  7 14:34 bulbasaur
+-r--------   1 s291011  studs        106 сент.  7 14:48 elgyem
+----rw--w-   1 s291011  studs         53 сент.  7 14:48 meowth
+
+./mareep1/bulbasaur:
+./mareep1/bulbasaur: Permission denied
+total 7
+
+./shellder1:
+total 14
+dr-x-w-r--   2 s291011  studs          2 сент.  7 14:35 blaziken
+dr-x--x-w-   2 s291011  studs          2 сент.  7 14:35 cleffa
+d-wxrw--wx   2 s291011  studs          2 сент.  7 14:35 krookodile
+-r--------   1 s291011  studs         84 сент.  7 14:50 rattata
+-rw-rw----   1 s291011  studs         51 сент.  7 14:51 scolipede
+lrwxrwxrwx   1 s291011  studs          9 сент.  7 17:35 scolipedemusharna -> musharna0
+
+./shellder1/blaziken:
+total 0
+
+./shellder1/cleffa:
+total 0
+
+./shellder1/krookodile:
+./shellder1/krookodile: Permission denied
+total 0
+
+
+
+s291011@helios:/home/s291011/lab0$ wc -m deino9/murkrow deino9/ferrothorn mareep1/elgyem mareep1/meowth shellder1/rattata 2>/dev/null | sort -r
+     193 total
+      95 mareep1/elgyem
+      73 shellder1/rattata
+      25 deino9/murkrow
+       0 deino9/ferrothorn
+
+
+
+s291011@helios:/home/s291011/lab0$ ls -lRt | grep '^m' | head -n 2
+./deino9: Permission denied
+./shellder1/krookodile: Permission denied
+./mareep1/bulbasaur: Permission denied
+
+s291011@helios:/home/s291011/lab0$ cat -n f* */f* | sort -r
+cat: cannot open f*
+cat: cannot open */f*
+
+s291011@helios:/home/s291011/lab0$ cat mareep1/* 2>&1 | sort -r
+Возможности Overland=4 Surface=4 Sky=4 Jump=3 Power2=0
+Intelligence=5 Telekinetic=0 Telepath=0
+cat: cannot open mareep1/meowth
+cat: cannot open mareep1/bulbasaur
+
+s291011@helios:/home/s291011/lab0$ wc -l watchog1 > /tmp/result
+wc: cannot open watchog1
+
+s291011@helios:/home/s291011/lab0$ ls -lR 2>/tmp/err | grep "ta" | head -n 4
+total 18
+----r--r--   1 s291011  studs         51 сент.  7 14:43 carracosta2
+total 18
+total 7
+
+
+s291011@helios:/home/s291011/lab0$ rm musharna0
+s291011@helios:/home/s291011/lab0$ rm shellder1/scolipede
+s291011@helios:/home/s291011/lab0$ rm Copy_*
+s291011@helios:/home/s291011/lab0$ chmod u+r deino9
+s291011@helios:/home/s291011/lab0$ rm deino9/lotadwatch*
+s291011@helios:/home/s291011/lab0$ chmod u-r deino9
+s291011@helios:/home/s291011/lab0$ rm -r shellder1
+s291011@helios:/home/s291011/lab0$ chmod u+w mareep1
+s291011@helios:/home/s291011/lab0$ rm -r mareep1/bulbasaur
+s291011@helios:/home/s291011/lab0$ chmod u-w mareep1
+
+
+
+
+
+
+
+
+
+
